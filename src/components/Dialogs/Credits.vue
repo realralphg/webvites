@@ -12,6 +12,7 @@
                 <span class="text-h5 text-white text-weight-thin">- Rymboxx & Tutu <br> </span>      
                 <span class="text-h5 text-white text-weight-thin">- Joy Adejo <br> </span>      
                 <span class="text-h5 text-white text-weight-thin">- pexels.com <br> </span>      
+                <span class="text-h5 text-white text-weight-thin">- SOS <br> </span>      
                 <span class="text-h5 text-white text-weight-thin">- Greysoft Technologies <br> </span>      
             </q-card-section>
         </q-card>     
