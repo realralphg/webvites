@@ -34,7 +34,7 @@
                 <q-separator inset />
 
                 <q-card-section>
-                    Click on the "Place Order" button, make payment and fill the Order Form. 
+                    Click on the "Place Order" button, make payment then fill the Order Form. 
                     Ensure to upload payment details (Screenshot) in form.                     
                 </q-card-section>
 
@@ -44,6 +44,14 @@
                     **If you have any challenge making payment, make tranfer or bank payment to 
                     Greysoft Technologies (0048766501 - Sterling Bank) and ensure to upload payment 
                     details (Teller or Screenshot) in Order Form.
+                </q-card-section>
+
+                <q-separator inset />
+
+                <q-card-section>
+                    On filling Order Form, you will be required to provide an Account Number into
+                    which gift payments will be made. <br> You will also be required to provide a list
+                    of the gifts you want in your Gift Registry.
                 </q-card-section> 
 
                 <q-separator inset />
@@ -63,7 +71,7 @@
 
                 <q-card-section>
                     We reward referrers with NGN5,000 for every referral upon client's full payment.
-                    A referrer is someone who refers prospective clients to Webvites. Call us NOW.
+                    A referrer is someone who refers prospective clients to Webvites. Get in touch NOW.
                 </q-card-section> 
             </q-card>
         </div>

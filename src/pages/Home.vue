@@ -3,6 +3,7 @@
       <div>
           <q-carousel
               v-model="slid"
+              autoplay
               swipeable
               animated
               infinite
@@ -84,28 +85,34 @@
     >
       <q-carousel-slide :name="1" class="column no-wrap">
         <div class="row fit justify-start items-center q-gutter-xs q-col-gutter no-wrap">
-          <q-img class="rounded-borders col-6 full-height" src="images/wed2.jpg" />
+          <q-img class="rounded-borders col-6 full-height" src="images/newimages/new7.jpg" />
           <q-img class="rounded-borders col-6 full-height" src="images/wed4.jpg" />
         </div>
       </q-carousel-slide>
       <q-carousel-slide :name="2" class="column no-wrap">
         <div class="row fit justify-start items-center q-gutter-xs q-col-gutter no-wrap">
-          <q-img class="rounded-borders col-6 full-height" src="images/wed5.jpg"  />
-          <q-img class="rounded-borders col-6 full-height" src="images/wed6.jpg"  />
+          <q-img class="rounded-borders col-6 full-height" src="images/newimages/new19.jpg"  />
+          <q-img class="rounded-borders col-6 full-height" src="images/newimages/new6.jpg" />
         </div>
-      </q-carousel-slide>
+      </q-carousel-slide>      
       <q-carousel-slide :name="3" class="column no-wrap">
         <div class="row fit justify-start items-center q-gutter-xs q-col-gutter no-wrap">
-          <q-img class="rounded-borders col-6 full-height" src="images/wed7.jpg"  />
-          <q-img class="rounded-borders col-6 full-height" src="images/wedtrad2.jpg" />
+          <q-img class="rounded-borders col-6 full-height" src="images/newimages/new5.jpg"  />
+          <q-img class="rounded-borders col-6 full-height" src="images/newimages/new3.jpg"  />
         </div>
       </q-carousel-slide>
       <q-carousel-slide :name="4" class="column no-wrap">
         <div class="row fit justify-start items-center q-gutter-xs q-col-gutter no-wrap">
-          <q-img class="rounded-borders col-6 full-height" src="images/wed9.jpg"  />
-          <q-img class="rounded-borders col-6 full-height" src="images/wed10.jpg"  />
+          <q-img class="rounded-borders col-6 full-height" src="images/newimages/new10.jpg"  />
+          <q-img class="rounded-borders col-6 full-height" src="images/newimages/new18.jpg" />
         </div>
       </q-carousel-slide>
+      <q-carousel-slide :name="5" class="column no-wrap">
+        <div class="row fit justify-start items-center q-gutter-xs q-col-gutter no-wrap">
+          <q-img class="rounded-borders col-6 full-height" src="images/newimages/new4.jpg"  />
+          <q-img class="rounded-borders col-6 full-height" src="images/newimages/new20.jpg" />
+        </div>
+      </q-carousel-slide>      
     </q-carousel>
 
     <!-- Two Cards -->
@@ -123,10 +130,17 @@
       </q-card>
     </div>
 
+    <!-- <div class="row justify-center q-gutter-sm q-pa-lg">
+      <img src="images/logos/logo1240.png" alt="" width="10%" >
+      <img src="images/logos/greysoft.png" alt="" width="10%" >
+      <img src="images/logos/halox.png" alt="" width="10%" >
+    </div>        -->
+
     <!-- Floating Button -->
     <q-page-sticky position="bottom-right" :offset="[18, 18]">
       <q-fab
         v-model="fabRight"
+        autoplay
         vertical-actions-align="right"
         color="primary"
         glossy
@@ -174,21 +188,51 @@ export default {
         {
           id: '2',
           name: 'lovecircle',
-          imageUrl: '/images/wedtrad1.jpg',
+          imageUrl: '/images/newimages/new23.jpg',
           title: 'Capturing every moment',
         },
         {
           id: '3',
           name: 'lovelove',
-          imageUrl: '/images/wed7.jpg',
-          title: 'Let us help you share your experience with your world',
+          imageUrl: '/images/newimages/new1.jpg',
+          title: 'Ambiance',
         },
         {
           id: '4',
           name: 'superlove',
-          imageUrl: '/images/wed8.jpg',
-          title: 'Let us help you share your experience with your world',
-        },                
+          imageUrl: '/images/newimages/new24.jpg',
+          title: 'Joy',
+        },
+        {
+          id: '5',
+          name: 'lovetest',
+          imageUrl: '/images/newimages/new12.jpg',
+          title: 'Memories',
+        },  
+        {
+          id: '6',
+          name: 'loveblast',
+          imageUrl: '/images/newimages/new25.jpg',
+          title: 'Resonance',
+        },
+        {
+          id: '7',
+          name: 'loveround',
+          imageUrl: '/images/newimages/new9.jpg',
+          title: 'Poetry',
+        },  
+        {
+          id: '8',
+          name: 'lovespin',
+          imageUrl: '/images/newimages/new22.jpg',
+          title: 'Forever',
+        }, 
+        {
+          id: '9',
+          name: 'loveatlast',
+          imageUrl: '/images/newimages/new11.jpg',
+          title: 'Bliss',
+        },                                                    
       ],      
       fabRight: false
     }

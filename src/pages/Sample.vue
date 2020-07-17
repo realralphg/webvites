@@ -18,6 +18,7 @@
             v-model="slid"
             swipeable
             animated
+            autoplay
             infinite
             control-color="secondary"
             :navigation="navigation"
@@ -367,6 +368,11 @@
       <q-page-sticky position="bottom-right" :offset="[18, 18]">
         <q-fab
           v-model="fabRight"
+          autoplay
+          animated
+          transition-prev="slide-right"
+          transition-next="slide-left"    
+          swipeable
           vertical-actions-align="right"
           color="primary"
           glossy

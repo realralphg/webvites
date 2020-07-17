@@ -12,8 +12,9 @@
           class="lt-md"
           @click="leftDrawerOpen = !leftDrawerOpen"
         />
+        <a href="/"><img src="images/logos/logo1240.png" style="height: 40px; max-width: 40px; padding-top: 5px;"></a>
 
-        <q-toolbar-title class="text-weight-light">
+        <q-toolbar-title class="text-weight-light text-h6">
           <router-link to="/" tag="span" style="cursor: pointer"> Wedvites </router-link>
         </q-toolbar-title>
 
@@ -37,6 +38,7 @@
         <div class="text-grey-5">Copyright 2020</div>
         <div class="text-grey-5">www.wedvites.com</div>
         <div class="text-grey-6">Greysoft Technologies</div>
+        <q-btn no-caps color="secondary" flat @click="disclaimer=true"> Disclaimer </q-btn>
       </div>
     </q-footer>
 
@@ -62,8 +64,22 @@
           <q-item-section>
             <q-item-label>{{link.label}}</q-item-label>
           </q-item-section>
-        </q-item>   
+        </q-item>
 
+<!-- Contact Professionals -->
+        <q-item-section side>
+          <div class="row text-grey q-ml-md">
+            <div class="column justify-center">
+              <q-icon name="contacts" size="25px"></q-icon>
+            </div>
+            
+            <div class="column q-pl-md">
+              <q-btn no-caps flat @click="contactProfessionals=true"> Professional Contacts </q-btn>
+            </div>
+          </div>
+        </q-item-section>                          
+
+<!-- Refer -->
         <q-item-section side>
           <div class="row text-secondary q-ml-md">
             <div class="column justify-center">
@@ -76,8 +92,7 @@
           </div>
         </q-item-section>
         
-        <q-space/>
-
+<!-- Credits -->
         <q-item-section side>
           <div class="row text-grey q-ml-md">
             <div class="column justify-center">
@@ -93,12 +108,20 @@
     </q-drawer>
 
     <!-- Dialogs -->
+    <q-dialog v-model="contactProfessionals">
+      <ContactProfessionals/>
+    </q-dialog> 
+
     <q-dialog v-model="refer">
       <Refer/>
-    </q-dialog> 
+    </q-dialog>     
 
     <q-dialog v-model="credits">
       <Credits/>
+    </q-dialog> 
+
+    <q-dialog v-model="disclaimer">
+      <Disclaimer/>
     </q-dialog> 
 
     <q-page-container>
@@ -110,16 +133,22 @@
 <script>
 import Refer from '../components/Dialogs/Refer'
 import Credits from '../components/Dialogs/Credits'
+import ContactProfessionals from '../components/Dialogs/ContactProfessionals'
+import Disclaimer from '../components/Dialogs/Disclaimer'
 export default {
   name: 'MainLayout',
   components:{
     Refer,
-    Credits
+    Credits,
+    ContactProfessionals,
+    Disclaimer
   },
   data () {
     return {
       refer: false,
-      credits: false,      
+      credits: false,
+      contactProfessionals: false, 
+      disclaimer: false,     
       leftDrawerOpen: false,
       essentialLinks: [
         {
