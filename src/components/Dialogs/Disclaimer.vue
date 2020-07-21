@@ -16,14 +16,14 @@
             <q-card-section >
                 <span class="text-h5 text-white text-weight-light">Contact <br> </span>                      
                 <span class="text-h7 text-white text-weight-light">
-                    Please, only contact wedvites through the contact details specified in 
-                    the Contact Us page of webvites.com to avoid any issues of scam or fraud.
+                    Please, only contact wedvytes through the contact details specified in 
+                    the Contact Us page of webvytes.com to avoid any issues of scam or fraud.
                 </span>
             </q-card-section>
 
             <q-separator inset />
             <q-card-section >
-                <span class="text-h5 text-white text-weight-light">Rerferrers <br> </span>                      
+                <span class="text-h5 text-white text-weight-light">Referrers <br> </span>                      
                 <span class="text-h7 text-white text-weight-light">
                     Referrers only get paid NGN5,000 upon FULL PAYMENT of clients referred.
                     This means that clients must make full payments before referrers can be credited.

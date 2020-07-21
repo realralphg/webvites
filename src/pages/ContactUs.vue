@@ -41,7 +41,7 @@
                                 <q-item-section> <span class="text-h5">Email:</span> 
                                 <q-item-label caption >
                                     <span class="text-body2">
-                                    mailwedvites@gmail.com 
+                                    wedvytes@gmail.com 
                                     </span>
                                 </q-item-label>
                                 </q-item-section>                    

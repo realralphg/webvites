@@ -15,7 +15,7 @@
         <a href="/"><img src="images/logos/logo1240.png" style="height: 40px; max-width: 40px; padding-top: 5px;"></a>
 
         <q-toolbar-title class="text-weight-light text-h6">
-          <router-link to="/" tag="span" style="cursor: pointer"> Wedvites </router-link>
+          <router-link to="/" tag="span" style="cursor: pointer"> Wedvytes </router-link>
         </q-toolbar-title>
 
         <q-space/>
@@ -36,8 +36,8 @@
     <q-footer>
       <div class="text-center bg-grey-10">
         <div class="text-grey-5">Copyright 2020</div>
-        <div class="text-grey-5">www.wedvites.com</div>
-        <div class="text-grey-6">Greysoft Technologies</div>
+        <div class="text-grey-5">www.wedvytes.com</div>
+        <div class="text-grey-6">By Greysoft Technologies</div>
         <q-btn no-caps color="secondary" flat @click="disclaimer=true"> Disclaimer </q-btn>
       </div>
     </q-footer>
@@ -53,7 +53,7 @@
           header
           class="text-white text-h5 text-weight-light"
         >
-          Wedvites
+          Wedvytes
         </q-item-label>
 
         <q-item class="text-grey-5" v-for="link in essentialLinks" :key="link.id" :to="link.to" exact clickable>

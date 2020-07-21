@@ -31,7 +31,7 @@
           <img src="images/divider.png" alt="" width="80%" >
         </div>        
         <div class="text-weight-light text-h5 text-grey-3 text-center">
-          Virtual or in-person, Wedvites make your wedding rock! <br> Here's how...
+          Virtual or in-person, Wedvytes makes your wedding rock! <br> Here's how...
         </div>
         <div class="text-center">
           <img src="images/divider.png" alt="" width="80%" >

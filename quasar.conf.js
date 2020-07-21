@@ -102,9 +102,9 @@ module.exports = function (/* ctx */) {
       workboxPluginMode: 'GenerateSW', // 'GenerateSW' or 'InjectManifest'
       workboxOptions: {}, // only for GenerateSW
       manifest: {
-        name: `wedvites`,
-        short_name: `wedvites`,
-        description: `A wedding app`,
+        name: `wedvytes`,
+        short_name: `wedvytes`,
+        description: `A wedding app for digital IV, RSVP, gallery and donations`,
         display: 'standalone',
         orientation: 'portrait',
         background_color: '#ffffff',

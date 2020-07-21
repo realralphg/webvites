@@ -24,7 +24,7 @@
                 </q-card-section>
 
                 <div class="text-center">
-                    <q-btn no-caps color="primary" label="Make Payment Here" />
+                    <a href="https://paystack.com/pay/wedvytes" target="_blank"><q-btn no-caps color="primary" label="Make Payment Here" /></a>
                 </div>
 
                 <q-card-section>
@@ -32,7 +32,7 @@
                 </q-card-section>
 
                 <div class="text-center q-mb-md">
-                    <a href="https://forms.gle/e6F5WD3MzuyhAb3z6" target="_blank"><q-btn no-caps color="primary" label="Order Form" /></a>
+                    <a href="https://forms.gle/AUPoth5dKi8kCiag8" target="_blank"><q-btn no-caps color="primary" label="Order Form" /></a>
                 </div>
             </q-card>
 

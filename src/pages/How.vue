@@ -57,7 +57,7 @@
                 <q-separator inset />
 
                 <q-card-section>
-                    Contact us through email (mailwebvites@gmail.com), whatsapp (08035356090)
+                    Contact us through email (wedvytes@gmail.com), whatsapp (08035356090)
                     or phone call (08099179487) to fast track your job.
                 </q-card-section>
 

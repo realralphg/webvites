@@ -19,6 +19,8 @@
                 <span class="text-h7 text-white text-weight-light">- Xposure Place - 08023182531 <br> </span>
                 <span class="text-h7 text-white text-weight-light">- Pix City - 08033778457 <br> </span>
                 <span class="text-h7 text-white text-weight-light">- DIP Photos- 07064335897 <br> </span>
+                <span class="text-h7 text-white text-weight-light">- PEHZ Project- 08033939792 <br> </span>
+                <span class="text-h7 text-white text-weight-light">- Becky Petes- 08077581645 <br> </span>
             </q-card-section>
 
             <q-separator inset />
@@ -38,7 +40,7 @@
             <q-separator inset />
             <q-card-section >
                 <span class="text-h5 text-white text-weight-thin">Design <br> </span>                      
-                <span class="text-h7 text-white text-weight-light">- HALOX - 07035031350 <br> </span>          
+                <span class="text-h7 text-white text-weight-light">- HALOX Design - 07035031350 <br> </span>          
                 <span class="text-h7 text-white text-weight-light">- Gadson - 08167481447 <br> </span>
                 <span class="text-h7 text-white text-weight-light">- Josh - 08169812858 <br> </span>
             </q-card-section>

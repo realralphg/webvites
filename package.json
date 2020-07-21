@@ -1,8 +1,8 @@
 {
-  "name": "wedvites",
+  "name": "wedvytes",
   "version": "0.0.1",
-  "description": "A wedding app",
-  "productName": "wedvites",
+  "description": "A wedding app for digital IV, RSVP, gallery and donations",
+  "productName": "wedvytes",
   "author": "realralphg <mr.ralph01@gmail.com>",
   "private": true,
   "scripts": {
