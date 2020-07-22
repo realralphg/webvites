@@ -39,12 +39,12 @@
         <div class="row wrap q-pa-lg justify-center text-white">
           <div class="shade col-sm-3 text-center q-pr-md q-pl-md">
             <q-icon name="dashboard" color="white" size="50px"/>
-            <p>We create a web app for your wedding, sharing your favorite moments in pictures and texts. </p> 
+            <p>We create a mobile web app for your wedding, sharing your favorite moments in pictures, videos and texts. </p> 
           </div>
           <div class="shade col-sm-3 text-center q-pr-md q-pl-md">
             <q-icon name="event" color="white" size="50px"/>
-            <p>You'll get your own personalized, highly secured and prestigious link e.g Ruth & Barnabas 
-              (Ruban2020.com) which becomes your trusted digital IV for RSVPs. </p> 
+            <p>You'll get your own personalized and highly secured domain name e.g Ruth & Barnabas 
+              (Ruban2020.com) which becomes your trusted digital IV for RSVPs for a 1year period and FREE domain afterwards. </p> 
           </div>
           <div class="shade col-sm-3 text-center q-pr-md q-pl-md">
             <q-icon name="payment" color="white" size="50px"/>
@@ -144,7 +144,7 @@
         vertical-actions-align="right"
         color="primary"
         glossy
-        icon="keyboard_arrow_up"
+        icon="add"
         direction="up"
       >
         <q-fab-action label-position="left" color="secondary" to="/sample" icon="favorite_border" label="View Sample" />

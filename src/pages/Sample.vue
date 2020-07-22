@@ -376,7 +376,7 @@
           vertical-actions-align="right"
           color="primary"
           glossy
-          icon="keyboard_arrow_up"
+          icon="add"
           direction="up"
         >
           <q-fab-action label-position="left" color="secondary" to="/sample" icon="favorite_border" label="View Sample" />

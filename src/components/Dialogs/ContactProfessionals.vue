@@ -21,6 +21,7 @@
                 <span class="text-h7 text-white text-weight-light">- DIP Photos- 07064335897 <br> </span>
                 <span class="text-h7 text-white text-weight-light">- PEHZ Project- 08033939792 <br> </span>
                 <span class="text-h7 text-white text-weight-light">- Becky Petes- 08077581645 <br> </span>
+                <span class="text-h7 text-white text-weight-light">- Jabbowak Imagery - 08080444400 <br> </span>
             </q-card-section>
 
             <q-separator inset />

@@ -37,7 +37,7 @@
       <div class="text-center bg-grey-10">
         <div class="text-grey-5">Copyright 2020</div>
         <div class="text-grey-5">www.wedvytes.com</div>
-        <div class="text-grey-6">By Greysoft Technologies</div>
+        <div class="text-grey-6">BY GREYSOFT TECHNOLOGIES</div>
         <q-btn no-caps color="secondary" flat @click="disclaimer=true"> Disclaimer </q-btn>
       </div>
     </q-footer>
@@ -157,7 +157,7 @@ export default {
           to: '/'
         },
         {
-          label: 'Sample',
+          label: 'View Sample',
           icon: 'favorite_border',
           to: '/sample'
         },
