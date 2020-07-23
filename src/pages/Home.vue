@@ -53,7 +53,7 @@
           </div>
           <div class="shade col-sm-3 text-center q-pr-md q-pl-md">
             <q-icon name="card_giftcard" color="white" size="50px"/>
-            <p>We also have a Gift Registry to give your loved ones an idea of the type of gifts 
+            <p>We also provide a Gift Registry to give your loved ones an idea of the type of gifts 
               you'd like them to get for you or send cash equivalent. </p> 
           </div>   
           <div class="shade col-sm-3 text-center q-pr-md q-pl-md">
@@ -157,21 +157,29 @@
     <!-- Dialogs -->
     <q-dialog v-model="refer">
       <Refer/>
-    </q-dialog>         
+    </q-dialog> 
+
+    <q-dialog v-model="notice">
+      <NoticeBoard/>
+    </q-dialog>  
+
   </div>
 </template>
 
 <script>
 import Refer from '../components/Dialogs/Refer'
+import NoticeBoard from '../components/Dialogs/NoticeBoard'
 
 export default {
   components:{
-    Refer
+    Refer,
+    NoticeBoard
   },
   data () {
     return {
     //Dialog
     refer: false,
+    notice: true,
     // for Carousel
       slid: 'moonlove',
       navigation: true,
