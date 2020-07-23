@@ -21,9 +21,9 @@
                      <span style="color: black; font-weight: bold;">**SALLAH DISCOUNT till August 31st**</span> <br> <br>
                     
                     CUSTOM Domain e.g. Ruban.com  <br>
-                    <span style="color: red; text-decoration:line-through;">NGN 100,000</span> <span style="color: black; font-weight: bold;">  - **NGN 70,000**</span><br>
+                    <span style="color: red; text-decoration:line-through;">NGN 100,000</span> <span style="color: black; font-weight: bold;">  - *NGN 70,000*</span><br>
                     FREE Domain e.g. Ruban.netlify.app <br>
-                    <span style="color: red; text-decoration:line-through;">NGN 70,000</span> <span style="color: blac; font-weight: bold;">  - **NGN 50,000**</span><br><br>                    
+                    <span style="color: red; text-decoration:line-through;">NGN 70,000</span> <span style="color: blac; font-weight: bold;">  - *NGN 50,000*</span><br><br>                    
                 </q-card-section>
 
                 <q-separator inset />
