@@ -33,6 +33,13 @@
 
             <q-separator inset />
             <q-card-section >
+                <span class="text-h5 text-white text-weight-thin">Bridal Makeover <br> </span>                      
+                <span class="text-h7 text-white text-weight-light">- Mild Signature - 08028448794 <br> </span>          
+                <span class="text-h7 text-white text-weight-light">- BP Makeover - 09096387139 <br> </span>          
+            </q-card-section>              
+
+            <q-separator inset />
+            <q-card-section >
                 <span class="text-h5 text-white text-weight-thin">Events Planning <br> </span>                      
                 <span class="text-h7 text-white text-weight-light">- Ambiance - 07030185554 <br> </span>          
                 <span class="text-h7 text-white text-weight-light">- MIKC - 07080000072 <br> </span>          
