@@ -18,20 +18,27 @@
                 <q-separator inset />
 
                 <q-card-section class="text-center">                    
+                    A job takes at most One Week @ <br>
+                    <span class="text-weight-light text-primary text-h5">N50,000</span> <br>
+                    <small> + Free Domain Forever! </small>
+                </q-card-section>
+
+<!-- D I S C O U N T  -->
+                <!-- <q-card-section class="text-center">                    
                      <span style="color: black; font-weight: bold;">**SALLAH DISCOUNT till August 31st**</span> <br> <br>
                     
                     CUSTOM Domain e.g. Ruban.com  <br>
                     <span style="color: red; text-decoration:line-through;">NGN 100,000</span> <span style="color: black; font-weight: bold;">  - *NGN 70,000*</span><br>
                     FREE Domain e.g. Ruban.netlify.app <br>
                     <span style="color: red; text-decoration:line-through;">NGN 70,000</span> <span style="color: blac; font-weight: bold;">  - *NGN 50,000*</span><br><br>                    
-                </q-card-section>
+                </q-card-section> -->
 
                 <q-separator inset />
 
                 <q-card-section>
-                    Our most preferred mode of sharing photos is via <a href="https://wetransfer.com" target="_blank">wetransfer.com</a> 
-                    or <a href="https://www.dropbox.com" target="_blank">dropbox.com</a> - 
-                    Upload images in any of these platforms and include the download link in Order Form. Also ensure 
+                    You can send Wedding Pictures directly to <span class="text-primary">wedvytes@gmail.com</span> or upload in 
+                    <a href="https://wetransfer.com" target="_blank">wetransfer.com</a> 
+                    and include the download link in Order Form. Also ensure 
                     that each prewedding photo is labeled as prewed1, prewed2 ...prewed20 (20max). <br>
                     Contact us if you have any challanges.
                 </q-card-section>

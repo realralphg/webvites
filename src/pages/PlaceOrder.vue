@@ -19,8 +19,7 @@
 
                 <q-card-section>
                     Thank you for stopping by. <br> <br>
-                    First, make payment of <span style="color: red; text-decoration:line-through;">N100,000</span> <span style="color: black; font-weight: bold;">  - *N70,000*</span> for CUSTOM Domain app e.g. Ruban.com OR 
-                    <span style="color: red; text-decoration:line-through;">N70,000</span> <span style="color: black; font-weight: bold;">  - *N50,000*</span> for FREE Domain app e.g. Ruban.netlify.app, then fill the Order Form.
+                    First, make payment of N50,000 (Free Domain).
                     Remember to take a screenshot of payment detail.
                 </q-card-section>
 

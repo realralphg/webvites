@@ -40,7 +40,7 @@
           <div class="shade col-sm-3 text-center q-pr-md q-pl-md">
             <q-icon name="dashboard" color="white" size="50px"/>
             <p>We create a mobile web app for your wedding, sharing your favorite moments in pictures, videos and texts. </p> 
-          </div>
+          </div>            
           <div class="shade col-sm-3 text-center q-pr-md q-pl-md">
             <q-icon name="event" color="white" size="50px"/>
             <p>You'll get your own personalized and highly secured domain name e.g Ruth & Barnabas 
@@ -179,7 +179,7 @@ export default {
     return {
     //Dialog
     refer: false,
-    notice: true,
+    notice: false,
     // for Carousel
       slid: 'moonlove',
       navigation: true,
@@ -255,9 +255,16 @@ export default {
     text-align: center;
     padding: 10px;
     background-color: rgba(0, 0, 0, .3);
-    border-radius: 15px 0 15px;
+    border-radius: 15px 0px 15px 0px;
     margin-bottom: 5px;
     margin-right: 5px;
+    transition: 0.4s;    
+}
+
+.shade:focus {
+  border-radius: 0px 15px 0px 15px;
+  cursor: pointer;
+  background-color: rgb(20, 20, 20);
 }
 
 a{
